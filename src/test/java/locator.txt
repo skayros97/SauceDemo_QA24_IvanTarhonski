@@ -1,0 +1,36 @@
+//By.id
+id="add-to-cart-sauce-labs-backpack"
+//By.name
+name="add-to-cart-sauce-labs-backpack"
+//By.classname
+btn btn_primary btn_small btn_inventory
+//By.tagName
+button
+//By.linktext
+--------------------
+//By.partiallinktext
+--------------------
+//By.xpath
+    //button[@name='continue']
+    //button[text()='Finish']
+    //button[contains(@value,'Continue')]
+    //span[contains(text(),'Checkout')]
+    //*[text()='Checkout: Your Information']//ancestor::div
+    //div[@class='inventory_item']//descendant::button
+    //div[@class='inventory_item']//following::div
+    //div[@class='inventory_item']//img/parent::a
+    //div[@class='inventory_item']//preceding::span
+//CSS
+    css=div.inventory_item
+    css.inventory_item
+    css.btn.btn_primary
+    css.inventory_item .inventory_item_name
+    #item_4_title_link
+    button
+    button.btn_primary
+    [data-test=error]
+    [class~=btn]
+    [lang|=en]
+    [href^=https]
+    [href$=.pdf]
+    href*=w3schools]
